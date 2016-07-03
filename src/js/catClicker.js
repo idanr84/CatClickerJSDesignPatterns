@@ -2,7 +2,7 @@
  * Created by idanr on 15/06/2016.
  */
 
-//var catTitles = ["Moshiko","Avi"];
+var catTitles = ["Moshiko","Avi"];
 import $ from 'jquery';
 var cats = [{"name":"Moshiko","imgUrl":"../assets/cat1.jpg"},{"name":"Avi","imageUrl":"../assets/cat2.jpg"}];
 
