@@ -2,24 +2,17 @@
  * Created by idanr on 15/06/2016.
  */
 
-var catTitles = ["Moshiko","Avi"];
+
+import {render} from "react-dom"
+import React from "react"
+import CatContainer from "./components/CatContainer"
+
 import $ from 'jquery';
-var cats = [{"name":"Moshiko","imgUrl":"../assets/cat1.jpg"},{"name":"Avi","imageUrl":"../assets/cat2.jpg"}];
+var catsData = [{title:"Moshiko",imgUrl:"../../../resources/cat1.jpg",shouldShowCounter:false},{title:"Avi",imgUrl:"../../../resources/cat2.jpg",shouldShowCounter:true}];
 
-$(function () {
-    $(".cat").each(function (index) {
+const container = document.getElementById("catContainer");
 
-        $(this).children(".title").first().text(catTitles[index]);
-
-        $(this).children("img").click(function () {
-            var currentCounter =  parseInt($(this).siblings(".counter").first().text());
-            console.log("currentCounter is -> " + currentCounter);
-            $(this).siblings(".counter").first().text(currentCounter + 1);
-        })
-    })
-})
-
-function loadCats(){
-    
-}
-
+render(
+    <CatContainer cats={catsData}/>,
+    container
+)

@@ -2,16 +2,15 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  entry: [
-  // Set up an ES6-ish environment
-  'babel-polyfill',
 
-  // Add your application's scripts below
-  './src/js/catClicker.js',
-],
+  entry: {
+    cat : ['babel-polyfill','./src/js/catClicker.js'],
+    react : ['babel-polyfill','./src/js/react_index.js'],
+  },
+
   output: {
-        path: __dirname, filename: './src/dst/bundle.js',
-        publicPath: "/assets/",
+        path: __dirname + '/src/dst/', filename: '[name].bundle.js',
+        publicPath: '/assets/',
       },
   module: {
     loaders: [
