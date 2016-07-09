@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b2c4c4a-992c-471f-8536-0e5beef87994" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/components/app.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dst/bundle.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/build/Release/fse.node" afterPath="$PROJECT_DIR$/node_modules/fsevents/build/Release/fse.node" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/lib/binding/Release/node-v48-darwin-x64/fse.node" afterPath="$PROJECT_DIR$/node_modules/fsevents/lib/binding/Release/node-v48-darwin-x64/fse.node" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/components/CatSelectionContainer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/components/SelectedCatContainer.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/components/catContainer.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stream-browserify/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/node_modules/stream-browserify/node_modules/isarray/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/stream-browserify/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/stream-browserify/node_modules/readable-stream/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/cats.css" afterPath="$PROJECT_DIR$/src/css/cats.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dst/cat.bundle.js" afterPath="$PROJECT_DIR$/src/dst/cat.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dst/cat.bundle.js.map" afterPath="$PROJECT_DIR$/src/dst/cat.bundle.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dst/react.bundle.js" afterPath="$PROJECT_DIR$/src/dst/react.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dst/react.bundle.js.map" afterPath="$PROJECT_DIR$/src/dst/react.bundle.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/catClicker.html" afterPath="$PROJECT_DIR$/src/html/catClicker.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/catClicker.js" afterPath="$PROJECT_DIR$/src/js/catClicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="catClicker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,28 +36,18 @@
       <file leaf-file-name="Cat.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/Cat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="48" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="48" />
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catClicker.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="catClicker.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/catClicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="167" selection-start-line="10" selection-start-column="167" selection-end-line="10" selection-end-column="167" />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#45#77#0" expanded="true" />
@@ -68,34 +56,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="react_index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/react_index.js">
+      <file leaf-file-name="DOMCore.js" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="4020">
+              <caret line="268" column="0" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-dom/index.js">
+      <file leaf-file-name="CatSelectionContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/CatSelectionContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CatContainer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/components/CatContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="75">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
                 <element signature="e#44#81#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectedCatContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/SelectedCatContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="e#44#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,32 +113,19 @@
       <file leaf-file-name="catClicker.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/catClicker.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="150">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cats.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cats.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/cats.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cat.bundle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dst/cat.bundle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122325">
-              <caret line="8177" column="4" selection-start-line="8177" selection-start-column="4" selection-end-line="8177" selection-end-column="4" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1467736059000" expanded="true" signature="978697:978718" placeholder="{&quot;value&quot;: true...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -163,16 +150,17 @@
         <option value="$PROJECT_DIR$/css/cats.css" />
         <option value="$PROJECT_DIR$/js/catClicker.js" />
         <option value="$PROJECT_DIR$/html/catClicker.html" />
-        <option value="$PROJECT_DIR$/src/css/cats.css" />
         <option value="$PROJECT_DIR$/src/js/react_index.js" />
         <option value="$PROJECT_DIR$/src/js/components/app.js" />
         <option value="$PROJECT_DIR$/src/js/components/canContainer.js" />
         <option value="$PROJECT_DIR$/src/js/components/cat.js" />
         <option value="$PROJECT_DIR$/src/js/components/catContainer.js" />
-        <option value="$PROJECT_DIR$/src/html/catClicker.html" />
-        <option value="$PROJECT_DIR$/src/js/components/Cat.js" />
         <option value="$PROJECT_DIR$/src/js/components/CatContainer.js" />
+        <option value="$PROJECT_DIR$/src/js/components/Cat.js" />
+        <option value="$PROJECT_DIR$/src/js/components/SelectedCatContainer.js" />
         <option value="$PROJECT_DIR$/src/js/catClicker.js" />
+        <option value="$PROJECT_DIR$/src/html/catClicker.html" />
+        <option value="$PROJECT_DIR$/src/css/cats.css" />
       </list>
     </option>
   </component>
@@ -222,6 +210,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -336,7 +325,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,11 +426,15 @@
       <workItem from="1467731989500" duration="1594000" />
       <workItem from="1467734036064" duration="938000" />
       <workItem from="1467735908248" duration="988000" />
+      <workItem from="1468050029483" duration="910000" />
+      <workItem from="1468051415590" duration="1793000" />
+      <workItem from="1468054100525" duration="1468000" />
+      <workItem from="1468055937076" duration="1222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21150000" />
+    <option name="totallyTimeSpent" value="26543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1419" height="873" extended-state="0" />
@@ -452,18 +444,18 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2835821" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -482,14 +474,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dst/bundle.js" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26175">
-          <caret line="1745" column="35" selection-start-line="1745" selection-start-column="35" selection-end-line="1745" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/catClicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -606,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="733">
           <caret line="28975" column="13" selection-start-line="28975" selection-start-column="13" selection-end-line="28975" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,19 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-dom/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,25 +611,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dst/cat.bundle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122325">
-          <caret line="8177" column="4" selection-start-line="8177" selection-start-column="4" selection-end-line="8177" selection-end-column="4" />
+        <state relative-caret-position="136245">
+          <caret line="9083" column="4" selection-start-line="9083" selection-start-column="4" selection-end-line="9083" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1467736059000" expanded="true" signature="978697:978718" placeholder="{&quot;value&quot;: true...}" />
+            <marker date="1468056481000" expanded="true" signature="1426:1428" placeholder="/*...*/" />
+            <marker date="1468056481000" expanded="true" signature="1103282:1103284" placeholder="/*...*/" />
           </folding>
         </state>
       </provider>
@@ -668,34 +634,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/catClicker.html">
+    <entry file="file://$PROJECT_DIR$/src/js/components/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="240">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/cats.css">
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/Cat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="47" />
+        <state relative-caret-position="90">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/CatContainer.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="4020">
+          <caret line="268" column="0" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/SelectedCatContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#44#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/CatSelectionContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="e#44#81#0" expanded="true" />
           </folding>
@@ -704,12 +687,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/catClicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="167" selection-start-line="10" selection-start-column="167" selection-end-line="10" selection-end-column="167" />
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#45#77#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/catClicker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/cats.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
